@@ -1,0 +1,186 @@
+.all{
+    text-align:center;
+    position:absolute;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    z-index:0;
+}
+
+#one{
+    position:relative;
+    left:0;
+    top:0;
+    border:4px #B8860B solid;
+    width:100px;
+    height:50px;
+    cursor:pointer;
+    background-color:black;
+    color:#B8860B;
+    font-size:15px;
+}
+
+#two{
+    position:relative;
+    left:0;
+    top:0;
+    border:4px #B8860B solid;
+    width:100px;
+    height:50px;
+    cursor:pointer;
+    background-color:black;
+    color:#B8860B;
+    font-size:15px;
+}
+
+#three{
+    position:relative;
+    left:0;
+    top:0;
+    border:4px #B8860B solid;
+    width:100px;
+    height:50px;
+    cursor:pointer;
+    background-color:black;
+    color:#B8860B;
+    font-size:15px;
+}
+
+#four{
+    position:relative;
+    left:0;
+    top:0;
+    border:4px #B8860B solid;
+    width:100px;
+    height:50px;
+    cursor:pointer;
+    background-color:black;
+    color:#B8860B;
+    font-size:15px;
+}
+
+#a{
+    position:relative;
+    left:-100px;
+    top:0;
+    border:4px #B8860B none;
+    width:100px;
+    height:100px;
+    cursor:pointer;
+    background-color:transparent;
+    color:#B8860B;
+    font-size:70px;
+}
+
+#b{
+    position:relative;
+    left:100px;
+    top:0;
+    border:4px #B8860B none;
+    width:100px;
+    height:100px;
+    cursor:pointer;
+    background-color:transparent;
+    color:#B8860B;
+    font-size:70px;
+}
+
+#c{
+    position:relative;
+    left:-100px;
+    top:0;
+    border:4px #B8860B none;
+    width:100px;
+    height:100px;
+    cursor:pointer;
+    background-color:transparent;
+    color:#B8860B;
+    font-size:70px;
+}
+
+#d{
+    position:relative;
+    left:100px;
+    top:0;
+    border:4px #B8860B none;
+    width:100px;
+    height:100px;
+    cursor:pointer;
+    background-color:transparent;
+    color:#B8860B;
+    font-size:70px;
+}
+
+#js{
+    position:relative;
+    left:0;
+    top:0;
+    border:4px #B8860B solid;
+    width:100px;
+    height:50px;
+    cursor:pointer;
+    background-color:black;
+    color:#B8860B;
+    font-size:15px;
+    font-family:FangSong;
+    font-weight:bold;
+}
+
+
+#red_right{
+    width:230px;
+    height:500px;
+    position:absolute;
+    left:0px;
+    z-index:0;
+}
+
+#red_left{
+    width:230px;
+    height:500px;
+    position:absolute;
+    right:0px;
+    z-index:0;
+}
+
+#vs{
+    width:150px;
+    position:relative;
+    top:150px;
+    z-index:-10;
+}
+#ab_div{
+    position:relative;
+    background-color:transparent;
+    width:400px;
+    height:100px;
+    top:40px;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+#cd_div{
+    position:relative;
+    background-color:transparent;
+    width:400px;
+    height:100px;
+    top:180px;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+#buttons_block{
+    position:relative;
+    background-color:transparent;
+    width:80%;
+    height:160px;
+    top:220px;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    text-align:center;
+}

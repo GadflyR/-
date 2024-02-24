@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>楠赐国碰数系统</title>
+    <link rel="icon" href="logo图标.png">
+    <script>
+        window.onmousedown = function () {
+            if (window.event) {
+                if (event.button == 2) {
+                    alert('此网站不提供该项服务'); return false;
+                }
+            }
+        }
+        function start1() {
+            window.location.href="操作页面先手.html";
+        }
+        function start2() {
+            window.location.href="操作页面后手.html";
+        }
+    </script>
+</head>
+<body bgcolor="black">
+    <link rel="stylesheet" href="先手后手.css"/>
+    <div class="all">
+        <img src="白洞浅.png" id="white"/>
+        <br>
+        <img src="红洞.png" id="red"/>
+        <div id="word_block">
+            <b id="word_word">楠赐国碰数系统</b>
+        </div>
+    </div>
+    <div class="all">
+        <img src="logo.png" id="logo">
+    </div>
+    <div class="all">
+        <div id="first_block">
+            <button type="button" id="first_button" onclick="start1()">先手</button>
+        </div>
+        <br>
+        <div id="second_block">
+            <button type="button" id="second_button" onclick="start2()">后手</button>
+        </div>
+    </div>
+
+    <img src="向右红洞.png" id="red_right"/>
+    <img src="向左红洞.png" id="red_left"/>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>楠赐国碰数系统</title>
+    <link rel="icon" href="logo图标.png">
+    <script src="各类数局.js"></script>
+    <script src="操作页面主体.js"></script>
+
+</head>
+<body bgcolor="black">
+<link rel="stylesheet" href="操作页面.css"/>
+<div class="all">
+    <img id="vs" src="vs.png"/>
+</div>
+<img src="向右红洞.png" id="red_right"/>
+<img src="向左红洞.png" id="red_left"/>
+<div class="all">
+    <div id="ab_div">
+        <button id="a" onmouseover="white('a')" onmouseout="gold('a')"></button>
+        <button id="b" onmouseover="white('b')" onmouseout="gold('b')"></button>
+    </div>
+    <div id="cd_div">
+        <button id="c" onmouseover="white('c')" onmouseout="gold('c')"></button>
+        <button id="d" onmouseover="white('d')" onmouseout="gold('d')"></button>
+    </div>
+    <div id="buttons_block">
+        <button type="button" id="one" onclick='ca()' onmouseover="white('one')" onmouseout="gold('one')">1碰1</button>
+        <button type="button" id="two" onclick='cb()' onmouseover="white('two')" onmouseout="gold('two')">1碰1</button>
+        <button type="button" id="three" onclick='da()' onmouseover="white('three')" onmouseout="gold('three')">1碰1</button>
+        <button type="button" id="four" onclick='db()' onmouseover="white('four')" onmouseout="gold('four')">1碰1</button>
+        <br>
+        <br>
+        <button type="button" id="js" onclick="window.location.href='最终页面.html'" onmouseover="white('js')" onmouseout="gold('js')">碰数结束</button>
+    </div>
+</div>
+
+
+<script>
+    document.getElementById("a").innerHTML=a;
+    document.getElementById("b").innerHTML=b;
+    document.getElementById("c").innerHTML=c;
+    document.getElementById("d").innerHTML=d;
+    window.onmousedown = function (){
+        if (window.event) {
+            if (event.button == 2) {
+                alert('此网站不提供该项服务'); return false;
+            }
+        }
+    }
+</script>
+</body>
+</html>
